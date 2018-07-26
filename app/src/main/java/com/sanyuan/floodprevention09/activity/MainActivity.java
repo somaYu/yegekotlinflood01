@@ -17,8 +17,8 @@ import android.widget.Toast;
 import com.sanyuan.floodprevention09.R;
 import com.sanyuan.floodprevention09.base.BaseActivity;
 import com.sanyuan.floodprevention09.fragment.CountryFragment;
-import com.sanyuan.floodprevention09.fragment.MyFragment;
 import com.sanyuan.floodprevention09.fragment.LocationFragment;
+import com.sanyuan.floodprevention09.fragment.MyFragment;
 
 import java.util.ArrayList;
 import java.util.List;
