@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/country_main"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_divider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:text="易涝点信息"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <View
+                    style="@style/divider3"
+                    android:layout_alignLeft="@+id/tv_divider"
+                    android:layout_alignRight="@+id/tv_divider"
+                    android:layout_below="@+id/tv_divider"
+                />
+
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="1.基本情况"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="全国总计项目8756个，累积长度38523564米，总投入8574698752元。目前规划项目5024个，在建项目1099个，已完成20181024米。"
+                    android:textColor="#666666"
+                    android:textSize="14sp"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="2.管廊规划情况"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
+                    android:textColor="#666666"
+                    android:textSize="14sp"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="3.管廊建设情况"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="2dp"
+                    android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
+                    android:textColor="#666666"
+                    android:textSize="14sp"
+                />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

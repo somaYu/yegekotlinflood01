@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#888888"
+    android:orientation="horizontal"
+    android:weightSum="45">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+    >
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="序号"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv2"
+        android:layout_toRightOf="@+id/tv1"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+    >
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="行政区划"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv3"
+        android:layout_toRightOf="@+id/tv2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_post"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="16"
+        android:orientation="vertical"
+        android:weightSum="2"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+        >
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="(毫米/24小时)"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+            />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/divider1"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2"
+        >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="对应降雨量"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                />
+
+            </RelativeLayout>
+
+            <View
+                style="@style/divider_vertical2"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv5"
+                android:layout_toRightOf="@+id/tv4"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="实际降雨量"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv6"
+        android:layout_toRightOf="@+id/tv5"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+    >
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="内涝情况"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

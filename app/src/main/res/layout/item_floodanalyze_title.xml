@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="#888888"
+    android:weightSum="60">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+    >
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="序号"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv2"
+        android:layout_toRightOf="@+id/tv1"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+    >
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="行政区划"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv3"
+        android:layout_toRightOf="@+id/tv2"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+    >
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="易涝点位置"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv4"
+        android:layout_toRightOf="@+id/tv3"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="13"
+    >
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="降雨量(mm)"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/tv5"
+        android:layout_toRightOf="@+id/tv4"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+    >
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="整治后标准"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimary">#ff0000ff</color>-->
+
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#FF5353F5</color>
+
+    <color name="blue_01">#28BAED</color>
+
+    <color name="dividerline">#E0E0E0</color>
+    <color name="dividerline1">#dddddd</color>
+    <color name="dividerline2">#dddddd</color>
+    <color name="dividerline3">#cccccc</color>
+
+    <!--<color name="status01">#ff0000ff</color>-->
+    <color name="status01">#FF5353F5</color>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="divider_line">@color/dividerline</drawable>
+    <drawable name="divider_line1">@color/dividerline1</drawable>
+    <drawable name="divider_line2">@color/dividerline2</drawable>
+    <drawable name="divider_line3">@color/dividerline3</drawable>
+
+</resources>

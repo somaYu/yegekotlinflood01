@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.sanyuan.floodprevention09.customview.YeGeWrapperRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mv"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="#fff"
+            android:clickable="true">
+
+        </com.baidu.mapapi.map.MapView>
+
+    </com.sanyuan.floodprevention09.customview.YeGeWrapperRelativeLayout>
+
+    <include layout="@layout/item_floodanalyze_title"/>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+</LinearLayout>

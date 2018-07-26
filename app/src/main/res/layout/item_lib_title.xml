@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#888888"
+    android:orientation="horizontal"
+    android:weightSum="41"
+>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+    >
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="序号"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv2"
+        android:layout_toRightOf="@+id/tv1"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+    >
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="行政区划"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+        />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/divider_vertical2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv3"
+        android:layout_toRightOf="@+id/tv2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_post"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="30"
+        android:orientation="vertical"
+        android:weightSum="2"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="计划投资(万元)"
+                android:textColor="#ffffff"
+                android:textSize="13sp"/>
+
+        </RelativeLayout>
+
+        <View
+            style="@style/divider1"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="30">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="2017年"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/divider_vertical2"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv5"
+                android:layout_toRightOf="@+id/tv4"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="2018年"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/divider_vertical2"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv6"
+                android:layout_toRightOf="@+id/tv5"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="2019年"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/divider_vertical2"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv7"
+                android:layout_toRightOf="@+id/tv6"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="2020年"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+            <View
+                style="@style/divider_vertical2"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv8"
+                android:layout_toRightOf="@+id/tv7"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="合计"
+                    android:textColor="#ffffff"
+                    android:textSize="13sp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

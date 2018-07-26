@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorAccent">@color/blue_01</item>
+    </style>
+
+    <!-- 分割线 -->
+    <style name="divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/divider_line</item>
+    </style>
+
+    <!-- 分割线1 -->
+    <style name="divider1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/divider_line1</item>
+    </style>
+
+    <!-- 分割线2 -->
+    <style name="divider2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/divider_line2</item>
+    </style>
+
+    <!-- 分割线3 -->
+    <style name="divider3">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/status01</item>
+    </style>
+
+    <!-- 分割线垂直 -->
+    <style name="divider_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/divider_line2</item>
+    </style>
+
+    <!-- 分割线垂直2 -->
+    <style name="divider_vertical2">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/divider_line2</item>
+    </style>
+
+    <!-- 分割线垂直3 -->
+    <style name="divider_vertical3">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/divider_line3</item>
+    </style>
+
+</resources>
