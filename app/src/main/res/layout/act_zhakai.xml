@@ -31,7 +31,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
                     android:layout_margin="10dp"
-                    android:text="易涝点信息"
+                    android:text="全国涝情"
                     android:textColor="#000000"
                     android:textSize="18sp"/>
 
@@ -51,13 +51,14 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
                 <TextView
+                    android:id="@+id/tvx"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
                     android:layout_margin="2dp"
-                    android:text="1.基本情况"
+                    android:text="（2017年8月14日-8月20日，第9期）"
                     android:textColor="#000000"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                 />
             </RelativeLayout>
 
@@ -66,83 +67,83 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp">
-                <TextView
+                <YegeAlignTextView
                     android:id="@+id/tv1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_margin="2dp"
-                    android:text="全国总计项目8756个，累积长度38523564米，总投入8574698752元。目前规划项目5024个，在建项目1099个，已完成20181024米。"
+                    android:text="全国涝情"
                     android:textColor="#666666"
                     android:textSize="14sp"
                 />
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_margin="2dp"
-                    android:text="2.管廊规划情况"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                />
-            </RelativeLayout>
+            <!--          <RelativeLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp">
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_margin="2dp"
+                              android:text="2.管廊规划情况"
+                              android:textColor="#000000"
+                              android:textSize="16sp"
+                          />
+                      </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
-                <TextView
-                    android:id="@+id/tv2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_margin="2dp"
-                    android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
-                    android:textColor="#666666"
-                    android:textSize="14sp"
-                />
-            </RelativeLayout>
+                      <RelativeLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp">
+                          <TextView
+                              android:id="@+id/tv2"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_margin="2dp"
+                              android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
+                              android:textColor="#666666"
+                              android:textSize="14sp"
+                          />
+                      </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_margin="2dp"
-                    android:text="3.管廊建设情况"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                />
-            </RelativeLayout>
+                      <RelativeLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp">
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_margin="2dp"
+                              android:text="3.管廊建设情况"
+                              android:textColor="#000000"
+                              android:textSize="16sp"
+                          />
+                      </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
-                <TextView
-                    android:id="@+id/tv3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_margin="2dp"
-                    android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
-                    android:textColor="#666666"
-                    android:textSize="14sp"
-                />
-            </RelativeLayout>
+                      <RelativeLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp">
+                          <TextView
+                              android:id="@+id/tv3"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:layout_margin="2dp"
+                              android:text="全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市地区。全国284个城市地区项目总计2142个，在建项目规划总计38562356米，已完成21245米全国23个城市..."
+                              android:textColor="#666666"
+                              android:textSize="14sp"
+                          />
+                      </RelativeLayout>-->
 
         </LinearLayout>
 
