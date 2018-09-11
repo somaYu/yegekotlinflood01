@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.sanyuan.floodprevention09.R;
 import com.sanyuan.floodprevention09.activity.AnalyzeActivity;
-import com.sanyuan.floodprevention09.activity.LibCountryActivity;
+import com.sanyuan.floodprevention09.activity.CountActivity;
 import com.sanyuan.floodprevention09.activity.PointCountryActivity;
 import com.sanyuan.floodprevention09.activity.TextActivity;
 import com.sanyuan.floodprevention09.activity.TextZhankaiActivity;
@@ -191,7 +191,8 @@ public class CountryFragment extends BaseFragment implements View.OnClickListene
                 break;
 
             case R.id.fl2:
-                startActivity(new Intent(getContext(), LibCountryActivity.class));
+//                startActivity(new Intent(getContext(), LibCountryActivity.class));
+                startActivity(new Intent(getContext(), CountActivity.class));
                 break;
 
             case R.id.fl3:

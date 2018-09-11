@@ -44,8 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="15dp"
         android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
         android:visibility="gone"
     >
 
@@ -58,11 +58,11 @@
         />
 
         <TextView
-            android:layout_marginLeft="4dp"
             android:id="@+id/tv_jump"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
             android:layout_toRightOf="@+id/iv_jump"
             android:background="@android:color/transparent"
             android:text="图表"
@@ -100,5 +100,18 @@
             android:textSize="14sp"/>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_shaixuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:text="筛选"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="gone"
+    />
 
 </RelativeLayout>

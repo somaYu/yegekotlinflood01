@@ -243,11 +243,11 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="易涝点信息"
+                android:text="舆情信息"
                 android:textColor="#0fa70f"
                 android:textSize="10sp"/>
 
@@ -281,7 +281,7 @@
                 android:layout_gravity="bottom"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="项目库信息"
+                android:text="降雨量信息"
                 android:textColor="#1a79c2"
                 android:textSize="10sp"/>
         </FrameLayout>

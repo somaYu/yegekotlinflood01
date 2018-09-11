@@ -21,7 +21,6 @@ public class AnalyzeBean implements Serializable{
     private String zhengzhibiaozhun;
     private String zhengzhijindu;
 
-
     public AnalyzeBean() {
     }
 

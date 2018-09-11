@@ -108,7 +108,6 @@ public class AnalyzeAdapter extends BaseAdapter {
 
     public static class ViewHolder {
 
-
         public View rootView;
         public TextView tv1;
         public TextView tv2;

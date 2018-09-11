@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:tools="http://schemas.android.com/tools" package="com.sanyuan.floodprevention09"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest package="com.sanyuan.floodprevention09"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
 
     <!--调试版sha1 EE:CD:57:92:78:AF:53:A5:A6:3B:86:F5:1F:DD:48:D2:15:B5:2B:D5-->
     <!--发布版sha1 D0:83:05:DF:D0:D8:E2:E3:6F:CE:F3:AF:BC:2E:A8:B9:BF:97:B8:B5-->
@@ -78,6 +79,10 @@
         <activity android:name=".activity.PieProvinceActivity"
                   android:screenOrientation="portrait"/>
         <activity android:name=".activity.TextZhankaiActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.CountActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.CountDetailActivity"
                   android:screenOrientation="portrait"/>
 
     </application>

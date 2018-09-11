@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.sanyuan.floodprevention09.R;
-import com.sanyuan.floodprevention09.activity.LibProvinceActivity;
+import com.sanyuan.floodprevention09.activity.CountActivity;
 import com.sanyuan.floodprevention09.activity.PointProvinceActivity;
 import com.sanyuan.floodprevention09.activity.TextZhankaiActivity;
 import com.sanyuan.floodprevention09.base.BaseFragment;
@@ -147,7 +147,8 @@ public class ProvinceFragment extends BaseFragment implements View.OnClickListen
                 break;
 
             case R.id.fl2:
-                startActivity(new Intent(getContext(), LibProvinceActivity.class));
+//                startActivity(new Intent(getContext(), LibProvinceActivity.class));
+                startActivity(new Intent(getContext(), CountActivity.class));
                 break;
 
             case R.id.rl_zhankai:
